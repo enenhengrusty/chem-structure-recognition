@@ -1,0 +1,27 @@
+{
+  "name": "chem-structure-recognition",
+  "displayName": "Chemical Structure Recognition & Self-Correction Suite",
+  "version": "2.0.0",
+  "description": "手写实验笔记识别与化学自纠错管线：高清局部切片 + RDKit 价态/分子量/水合物反向纠偏 + 投料表批量审计 + ACS 1996 PNG/SVG 双预览 + 深度联动 science 插件（PubChem / NIST WebBook / OPSIN / ORD / 原子守恒），杜绝化学幻觉。",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "Antigravity Chemistry"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chemistry",
+    "rdkit",
+    "structure-recognition",
+    "self-correction",
+    "reaction-notes",
+    "stoichiometry",
+    "pubchem",
+    "nist",
+    "science-integration"
+  ],
+  "suggestedPrompts": [
+    "识别这张手写化学反应式笔记与投料表，核对分子量与理论产量并给出结构预览图",
+    "校验我推导的 SMILES 与笔记手写分子量是否一致，排查结晶水/成盐或异构体误差",
+    "结合 PubChem、NIST 和反应先例，分析这个反应的原子守恒、物性安全与后处理注意事项"
+  ]
+}
